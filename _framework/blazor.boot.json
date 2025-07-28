@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Boss",
   "resources": {
-    "hash": "sha256-eUgk87uuDbsTQ7QqrXhsUHeHKPH3Lb//VmS5fdqcVIQ=",
+    "hash": "sha256-vwTmba+HanUHHGmGlA1xGqN8MKC1InPRdJu3MEQOp4Y=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -16,7 +16,7 @@
       "Microsoft.AspNetCore.Components.xfguannidx.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.pm7hi2tz8a.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.Web.dd5votnusz.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
-      "Microsoft.AspNetCore.Components.WebAssembly.qfmhkob3vs.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
+      "Microsoft.AspNetCore.Components.WebAssembly.r42zhp6m9q.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "Microsoft.Bcl.AsyncInterfaces.57013ktgbu.wasm": "Microsoft.Bcl.AsyncInterfaces.wasm",
       "Microsoft.Data.SqlClient.t0eu7j3me1.wasm": "Microsoft.Data.SqlClient.wasm",
       "Microsoft.Data.Sqlite.124jojoudr.wasm": "Microsoft.Data.Sqlite.wasm",
@@ -139,7 +139,7 @@
       "System.wznexm8bk2.wasm": "System.wasm",
       "netstandard.alb6jqxkg9.wasm": "netstandard.wasm",
       "System.Private.CoreLib.ptmsfwbf5z.wasm": "System.Private.CoreLib.wasm",
-      "Boss.edijvlqups.wasm": "Boss.wasm",
+      "Boss.8yk76tyq5l.wasm": "Boss.wasm",
       "dotnet.native.ad5zztmlbh.js": "dotnet.native.js",
       "dotnet.native.2qlhis1lsj.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
@@ -180,7 +180,7 @@
       "Microsoft.AspNetCore.Components.xfguannidx.wasm": "sha256-Q1uZL49umTjbTOKI4kFwEpVA5wIPVjmvl/+ZYvBQ0Eg=",
       "Microsoft.AspNetCore.Components.Forms.pm7hi2tz8a.wasm": "sha256-H5XJ+1XDgZCWDgu4AKN+dKBebG1HfC2mfhcN5cbo5rc=",
       "Microsoft.AspNetCore.Components.Web.dd5votnusz.wasm": "sha256-DzfgyTgaXYOKbIyvj1bzAkdKpdcIcCvbM8+NSOCbx0I=",
-      "Microsoft.AspNetCore.Components.WebAssembly.qfmhkob3vs.wasm": "sha256-KhCE9naasC7FWbyA/WsJyOZ2/YRIUppQRzblIC2nbpk=",
+      "Microsoft.AspNetCore.Components.WebAssembly.r42zhp6m9q.wasm": "sha256-i4o7BNx8D0gbEaA64nFKebWZEW3ULVMUS5R4HwcRqec=",
       "Microsoft.Bcl.AsyncInterfaces.57013ktgbu.wasm": "sha256-QTpOjT5CiKgv3DzTR9uWWiEcqhJPAFcuCWxSi3OPI9A=",
       "Microsoft.Data.SqlClient.t0eu7j3me1.wasm": "sha256-gxrEs8lqqUTMmbA1w4wX/vH8hjYWSIK1J2729Qeu4LY=",
       "Microsoft.Data.Sqlite.124jojoudr.wasm": "sha256-Sd88ie/ZaN4BiRa9ZBdbsn2CkJC/NCQIeqFkKGfZoU4=",
@@ -301,7 +301,7 @@
       "System.Xml.XmlSerializer.ygu8f6km75.wasm": "sha256-QlOIPoQlYDIvBdJUrN1O32u2E10G7lWvlgQUTt1ogAU=",
       "System.wznexm8bk2.wasm": "sha256-/Imz/Enqa2AZc4T3k/CqtsM6674KRN9OUtvK4Nokhew=",
       "netstandard.alb6jqxkg9.wasm": "sha256-LitCZk/LmhRQGTLc1o6wkUcyufprN5iGBuRQw2Szuik=",
-      "Boss.edijvlqups.wasm": "sha256-wvaTCISMocQyMFBNjsjXdue9z7CaiLJt8hTRc/U9eGE="
+      "Boss.8yk76tyq5l.wasm": "sha256-MKBQzwUu9kunR1x7x72LMZrLnuyIGE6XXV7perO84+E="
     }
   },
   "cacheBootResources": true,
