@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Boss",
   "resources": {
-    "hash": "sha256-vwTmba+HanUHHGmGlA1xGqN8MKC1InPRdJu3MEQOp4Y=",
+    "hash": "sha256-IbGuBt9S3mTYgeweeTuyzY37QEBlgTRei4qWQ1rrZQQ=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -16,7 +16,7 @@
       "Microsoft.AspNetCore.Components.xfguannidx.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.pm7hi2tz8a.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.Web.dd5votnusz.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
-      "Microsoft.AspNetCore.Components.WebAssembly.r42zhp6m9q.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
+      "Microsoft.AspNetCore.Components.WebAssembly.141o5t1uww.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "Microsoft.Bcl.AsyncInterfaces.57013ktgbu.wasm": "Microsoft.Bcl.AsyncInterfaces.wasm",
       "Microsoft.Data.SqlClient.t0eu7j3me1.wasm": "Microsoft.Data.SqlClient.wasm",
       "Microsoft.Data.Sqlite.124jojoudr.wasm": "Microsoft.Data.Sqlite.wasm",
@@ -90,7 +90,7 @@
       "System.Linq.5rwhjdneqe.wasm": "System.Linq.wasm",
       "System.Memory.fnaqmatw7m.wasm": "System.Memory.wasm",
       "System.Net.Http.Json.n9owar3nj3.wasm": "System.Net.Http.Json.wasm",
-      "System.Net.Http.kswadqswhn.wasm": "System.Net.Http.wasm",
+      "System.Net.Http.ii3f6uegly.wasm": "System.Net.Http.wasm",
       "System.Net.HttpListener.85ixa2492x.wasm": "System.Net.HttpListener.wasm",
       "System.Net.Mail.vqxfddmr8z.wasm": "System.Net.Mail.wasm",
       "System.Net.NetworkInformation.40i7ynt6x5.wasm": "System.Net.NetworkInformation.wasm",
@@ -139,7 +139,7 @@
       "System.wznexm8bk2.wasm": "System.wasm",
       "netstandard.alb6jqxkg9.wasm": "netstandard.wasm",
       "System.Private.CoreLib.ptmsfwbf5z.wasm": "System.Private.CoreLib.wasm",
-      "Boss.8yk76tyq5l.wasm": "Boss.wasm",
+      "Boss.idzhz7umlt.wasm": "Boss.wasm",
       "dotnet.native.ad5zztmlbh.js": "dotnet.native.js",
       "dotnet.native.2qlhis1lsj.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
@@ -180,7 +180,7 @@
       "Microsoft.AspNetCore.Components.xfguannidx.wasm": "sha256-Q1uZL49umTjbTOKI4kFwEpVA5wIPVjmvl/+ZYvBQ0Eg=",
       "Microsoft.AspNetCore.Components.Forms.pm7hi2tz8a.wasm": "sha256-H5XJ+1XDgZCWDgu4AKN+dKBebG1HfC2mfhcN5cbo5rc=",
       "Microsoft.AspNetCore.Components.Web.dd5votnusz.wasm": "sha256-DzfgyTgaXYOKbIyvj1bzAkdKpdcIcCvbM8+NSOCbx0I=",
-      "Microsoft.AspNetCore.Components.WebAssembly.r42zhp6m9q.wasm": "sha256-i4o7BNx8D0gbEaA64nFKebWZEW3ULVMUS5R4HwcRqec=",
+      "Microsoft.AspNetCore.Components.WebAssembly.141o5t1uww.wasm": "sha256-oWQwq1DFjSpdM/68Pg+aKodtL3oixQ8YtdfM1i+Xjbg=",
       "Microsoft.Bcl.AsyncInterfaces.57013ktgbu.wasm": "sha256-QTpOjT5CiKgv3DzTR9uWWiEcqhJPAFcuCWxSi3OPI9A=",
       "Microsoft.Data.SqlClient.t0eu7j3me1.wasm": "sha256-gxrEs8lqqUTMmbA1w4wX/vH8hjYWSIK1J2729Qeu4LY=",
       "Microsoft.Data.Sqlite.124jojoudr.wasm": "sha256-Sd88ie/ZaN4BiRa9ZBdbsn2CkJC/NCQIeqFkKGfZoU4=",
@@ -254,7 +254,7 @@
       "System.Linq.5rwhjdneqe.wasm": "sha256-EfdBKDbvGV9+uu8gn66X/62vVvJdcmaSt9PTUIs5t5s=",
       "System.Memory.fnaqmatw7m.wasm": "sha256-lTmzCqCgQTm4K1+7oNCLQ2c87BFiBM6YGZkFdEFOURw=",
       "System.Net.Http.Json.n9owar3nj3.wasm": "sha256-JTc1kJUP6rKjM4jlU4/XVEn6dfGtQw5kJd9/dgizsv4=",
-      "System.Net.Http.kswadqswhn.wasm": "sha256-hFmk0quq5mNm9W/1LzgGWSW610A/amDbQYjOjxmOa0Q=",
+      "System.Net.Http.ii3f6uegly.wasm": "sha256-dmLYgJQnILyQMo/gFWjrgUl2GZcBc/iBewomHK/Fy6E=",
       "System.Net.HttpListener.85ixa2492x.wasm": "sha256-5BOwfy5LD46DT++51IN1iUaoT6Je6bPhhNEyFDb4dzU=",
       "System.Net.Mail.vqxfddmr8z.wasm": "sha256-aQY98YGonhq0IXCBgHPikyNRgUr9x8v4TE1AMXzKx14=",
       "System.Net.NetworkInformation.40i7ynt6x5.wasm": "sha256-HDvvYfhjOSWftdr2CHcEmGK0kQm0dlKFNq8Q55zbWzw=",
@@ -301,12 +301,15 @@
       "System.Xml.XmlSerializer.ygu8f6km75.wasm": "sha256-QlOIPoQlYDIvBdJUrN1O32u2E10G7lWvlgQUTt1ogAU=",
       "System.wznexm8bk2.wasm": "sha256-/Imz/Enqa2AZc4T3k/CqtsM6674KRN9OUtvK4Nokhew=",
       "netstandard.alb6jqxkg9.wasm": "sha256-LitCZk/LmhRQGTLc1o6wkUcyufprN5iGBuRQw2Szuik=",
-      "Boss.8yk76tyq5l.wasm": "sha256-MKBQzwUu9kunR1x7x72LMZrLnuyIGE6XXV7perO84+E="
+      "Boss.idzhz7umlt.wasm": "sha256-qlMRBEhVdt/AoWjPCl/lFY6ttgdMbuACN8rJlcMcr50="
     }
   },
   "cacheBootResources": true,
   "debugLevel": 0,
   "linkerEnabled": true,
+  "appsettings": [
+    "../appsettings.json"
+  ],
   "globalizationMode": "sharded",
   "extensions": {
     "blazor": {}

@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "UxIHOjP3",
+  "version": "fD/ghpuH",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -374,8 +374,8 @@ self.assetsManifest = {
       "url": "_framework/Blazorise.Licensing.5q2r77toij.wasm"
     },
     {
-      "hash": "sha256-MKBQzwUu9kunR1x7x72LMZrLnuyIGE6XXV7perO84+E=",
-      "url": "_framework/Boss.8yk76tyq5l.wasm"
+      "hash": "sha256-qlMRBEhVdt/AoWjPCl/lFY6ttgdMbuACN8rJlcMcr50=",
+      "url": "_framework/Boss.idzhz7umlt.wasm"
     },
     {
       "hash": "sha256-VudsUw1u/CbHwMuwZ3a+/MIY0vYPRPMlvWNDTegZXsM=",
@@ -394,8 +394,8 @@ self.assetsManifest = {
       "url": "_framework/Microsoft.AspNetCore.Components.Web.dd5votnusz.wasm"
     },
     {
-      "hash": "sha256-i4o7BNx8D0gbEaA64nFKebWZEW3ULVMUS5R4HwcRqec=",
-      "url": "_framework/Microsoft.AspNetCore.Components.WebAssembly.r42zhp6m9q.wasm"
+      "hash": "sha256-oWQwq1DFjSpdM/68Pg+aKodtL3oixQ8YtdfM1i+Xjbg=",
+      "url": "_framework/Microsoft.AspNetCore.Components.WebAssembly.141o5t1uww.wasm"
     },
     {
       "hash": "sha256-Q1uZL49umTjbTOKI4kFwEpVA5wIPVjmvl/+ZYvBQ0Eg=",
@@ -690,8 +690,8 @@ self.assetsManifest = {
       "url": "_framework/System.Net.Http.Json.n9owar3nj3.wasm"
     },
     {
-      "hash": "sha256-hFmk0quq5mNm9W/1LzgGWSW610A/amDbQYjOjxmOa0Q=",
-      "url": "_framework/System.Net.Http.kswadqswhn.wasm"
+      "hash": "sha256-dmLYgJQnILyQMo/gFWjrgUl2GZcBc/iBewomHK/Fy6E=",
+      "url": "_framework/System.Net.Http.ii3f6uegly.wasm"
     },
     {
       "hash": "sha256-5BOwfy5LD46DT++51IN1iUaoT6Je6bPhhNEyFDb4dzU=",
@@ -886,7 +886,7 @@ self.assetsManifest = {
       "url": "_framework/System.wznexm8bk2.wasm"
     },
     {
-      "hash": "sha256-UTAcKQeKBDaFupCSqSE6Wk2rbpHeLw2DGG9QtSXZhGE=",
+      "hash": "sha256-OKyIZkFZxZ1RVjbWVrOfLHkWXKh1WyjIN/a9PsekYps=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -924,6 +924,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-LitCZk/LmhRQGTLc1o6wkUcyufprN5iGBuRQw2Szuik=",
       "url": "_framework/netstandard.alb6jqxkg9.wasm"
+    },
+    {
+      "hash": "sha256-+l398VuYBZmBVriN29u2a8YBAUlvX62kaelB+OXkfXc=",
+      "url": "appsettings.json"
     },
     {
       "hash": "sha256-URPqd0QwFGiJKyCNDY2RDGSz0eXmBUAKqxtyOc3B4Go=",
