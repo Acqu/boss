@@ -15,32 +15,32 @@ export const handler = async (event) => {
 
     try {
         const data = JSON.parse(event.body);
-        const { username = 'admin', password } = data;
+        const { reference, amount, issuedOn } = data;
 
-        if (!password) {
+        if (!reference || !amount || !issuedOn) {
             return {
                 statusCode: 400,
-                body: JSON.stringify({ error: 'Password is required' })
+                body: JSON.stringify({ error: 'Missing required fields: reference, amount, issuedOn' })
             };
         }
 
         const query = `
-      INSERT INTO ceocredential (username, password)
-      VALUES ($1, $2)
-      RETURNING id, username`;
-        const values = [username, password];
+      INSERT INTO receipts (reference, amount, issuedon)
+      VALUES ($1, $2, $3)
+      RETURNING id, reference, amount, issuedon`;
+        const values = [reference, amount, issuedOn];
 
         const result = await pool.query(query, values);
 
         return {
             statusCode: 200,
             body: JSON.stringify({
-                message: 'CEO credentials added successfully',
-                user: result.rows[0]
+                message: 'Receipt added successfully',
+                receipt: result.rows[0]
             })
         };
     } catch (err) {
-        console.error('❌ add-ceo-credentials error:', err);
+        console.error('❌ add-receipt error:', err);
         return {
             statusCode: 500,
             body: JSON.stringify({ error: err.message })

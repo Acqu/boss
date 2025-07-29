@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "oRnj8m8B",
+  "version": "8pRtJIGi",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -962,12 +962,16 @@ self.assetsManifest = {
       "url": "netlify/functions/add-analytics-entry.js"
     },
     {
-      "hash": "sha256-p1pbsw9JTM8R90ytZopB+eKd/SrUSUEzEMaGGbN8B/o=",
+      "hash": "sha256-PahbraxEqNqwfczAlA9i5137vGT9i1jGVZbHQDEurr8=",
       "url": "netlify/functions/add-ceo-credentials.js"
     },
     {
       "hash": "sha256-+7x1g8DiarXg9KL5D4S3gLTKQnwzYYqXniRse6QrYyE=",
       "url": "netlify/functions/add-product.js"
+    },
+    {
+      "hash": "sha256-VyORT0I4/QgVIoJE2uPtwtmjPBKDlUHor9jsF3owNNU=",
+      "url": "netlify/functions/add-receipt.js"
     },
     {
       "hash": "sha256-gKnkNs3wRRxEvY53QMs4R5H1llam1eEVBafdx3FjEJw=",
@@ -982,11 +986,15 @@ self.assetsManifest = {
       "url": "netlify/functions/delete-product.js"
     },
     {
+      "hash": "sha256-dww2g5zswPndyKSzwDbOKpqcNAviBXnXkr7VcKkyDJk=",
+      "url": "netlify/functions/get-ceo.js"
+    },
+    {
       "hash": "sha256-NGJN2XxUAW5hQmXka956yYy7LRBIhadsmsav8hpmmY8=",
       "url": "netlify/functions/get-products.js"
     },
     {
-      "hash": "sha256-rR0x+V7eDoB7TXpdEsYFfxocHcIoQzMm3pV7fQ15r4o=",
+      "hash": "sha256-UlprwMP7X6wyT6QM5LyZPbCGInHckma8CnahPmUwACA=",
       "url": "netlify/functions/get-receipts.js"
     },
     {
