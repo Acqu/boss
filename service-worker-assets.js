@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "fD/ghpuH",
+  "version": "UT2JkWvq",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -374,8 +374,8 @@ self.assetsManifest = {
       "url": "_framework/Blazorise.Licensing.5q2r77toij.wasm"
     },
     {
-      "hash": "sha256-qlMRBEhVdt/AoWjPCl/lFY6ttgdMbuACN8rJlcMcr50=",
-      "url": "_framework/Boss.idzhz7umlt.wasm"
+      "hash": "sha256-jPQDAjQQHGW54ClK2xWg0L49+6l67eUCVvXECxawQrc=",
+      "url": "_framework/Boss.si17kxx9yx.wasm"
     },
     {
       "hash": "sha256-VudsUw1u/CbHwMuwZ3a+/MIY0vYPRPMlvWNDTegZXsM=",
@@ -690,8 +690,8 @@ self.assetsManifest = {
       "url": "_framework/System.Net.Http.Json.n9owar3nj3.wasm"
     },
     {
-      "hash": "sha256-dmLYgJQnILyQMo/gFWjrgUl2GZcBc/iBewomHK/Fy6E=",
-      "url": "_framework/System.Net.Http.ii3f6uegly.wasm"
+      "hash": "sha256-j6vzIptKHzRKbCMyWWHrDPs478TL0bALbq+adxI7EY0=",
+      "url": "_framework/System.Net.Http.bllt55o393.wasm"
     },
     {
       "hash": "sha256-5BOwfy5LD46DT++51IN1iUaoT6Je6bPhhNEyFDb4dzU=",
@@ -886,7 +886,7 @@ self.assetsManifest = {
       "url": "_framework/System.wznexm8bk2.wasm"
     },
     {
-      "hash": "sha256-OKyIZkFZxZ1RVjbWVrOfLHkWXKh1WyjIN/a9PsekYps=",
+      "hash": "sha256-aJL3eijxDfApWSjnVgyCFoYLIyJ4NcXwI9rLuwCMFD4=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -926,7 +926,7 @@ self.assetsManifest = {
       "url": "_framework/netstandard.alb6jqxkg9.wasm"
     },
     {
-      "hash": "sha256-+l398VuYBZmBVriN29u2a8YBAUlvX62kaelB+OXkfXc=",
+      "hash": "sha256-iKTvy8VjV+74hA10SRZGRuYOfVvPfeOX6coBQjU0c8s=",
       "url": "appsettings.json"
     },
     {
@@ -956,6 +956,54 @@ self.assetsManifest = {
     {
       "hash": "sha256-jauXbxTTCU3leejdGIN/oEDmnJbVUfYoZV7cErbVukg=",
       "url": "manifest.webmanifest"
+    },
+    {
+      "hash": "sha256-GJz7qmZklDfQNuyt/sAf2vZY6szqzLlI+VIC46UlFuo=",
+      "url": "netlify/functions/add-analytics-entry.js"
+    },
+    {
+      "hash": "sha256-p1pbsw9JTM8R90ytZopB+eKd/SrUSUEzEMaGGbN8B/o=",
+      "url": "netlify/functions/add-ceo-credentials.js"
+    },
+    {
+      "hash": "sha256-+7x1g8DiarXg9KL5D4S3gLTKQnwzYYqXniRse6QrYyE=",
+      "url": "netlify/functions/add-product.js"
+    },
+    {
+      "hash": "sha256-gKnkNs3wRRxEvY53QMs4R5H1llam1eEVBafdx3FjEJw=",
+      "url": "netlify/functions/add-sale.js"
+    },
+    {
+      "hash": "sha256-67TJsJ6O4fEGJ6qtfhwYY0/6tQsYXWrA2a095dVgqJY=",
+      "url": "netlify/functions/db.js"
+    },
+    {
+      "hash": "sha256-CsKRiJ5fFlLQzeiuOn7o34BCNANjg4ZGTFQf5AIN6WU=",
+      "url": "netlify/functions/delete-product.js"
+    },
+    {
+      "hash": "sha256-NGJN2XxUAW5hQmXka956yYy7LRBIhadsmsav8hpmmY8=",
+      "url": "netlify/functions/get-products.js"
+    },
+    {
+      "hash": "sha256-rR0x+V7eDoB7TXpdEsYFfxocHcIoQzMm3pV7fQ15r4o=",
+      "url": "netlify/functions/get-receipts.js"
+    },
+    {
+      "hash": "sha256-73eRIb/KW6M7Uxh8n0zhsw20Z5wavD8tVogfqXNcHGk=",
+      "url": "netlify/functions/get-sales.js"
+    },
+    {
+      "hash": "sha256-diAJmJCkGwtZS4MFYpHgVuYBdf9t6MOFKoxBKhZjNyY=",
+      "url": "netlify/functions/save-receipt.js"
+    },
+    {
+      "hash": "sha256-6SXaOz/E4A56hW0+Y8xQ+IhpIH20n7lQJ3EpwfvrAWk=",
+      "url": "netlify/functions/send-receipt.js"
+    },
+    {
+      "hash": "sha256-ZKGyjvUldLgLyQdml6XlEAJYPPBdrGFoRSfBAk5UA9M=",
+      "url": "netlify/functions/update-product.js"
     }
   ]
 };
