@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "UT2JkWvq",
+  "version": "oRnj8m8B",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -950,7 +950,7 @@ self.assetsManifest = {
       "url": "images/tshirts.png"
     },
     {
-      "hash": "sha256-48eYBohyqrVnIGCjG27RrhxEXO5aH0zMAJe48CsmRKY=",
+      "hash": "sha256-1fZPIUe6cf9doflTuR92zBpv2Q+M94PFhNKyAjqRLkk=",
       "url": "index.html"
     },
     {
@@ -1000,6 +1000,10 @@ self.assetsManifest = {
     {
       "hash": "sha256-6SXaOz/E4A56hW0+Y8xQ+IhpIH20n7lQJ3EpwfvrAWk=",
       "url": "netlify/functions/send-receipt.js"
+    },
+    {
+      "hash": "sha256-0S2IRZ4a80QhhtjZTMLd2Os2MTlAsdGSkkS28kk99Hk=",
+      "url": "netlify/functions/test-db.js"
     },
     {
       "hash": "sha256-ZKGyjvUldLgLyQdml6XlEAJYPPBdrGFoRSfBAk5UA9M=",
