@@ -8,17 +8,17 @@ exports.handler = async function (event) {
         };
     }
 
-    const { username, password } = JSON.parse(event.body || '{}');
+    const { password } = JSON.parse(event.body || '{}');
 
-    if (!username || !password) {
+    if (!password) {
         return {
             statusCode: 400,
-            body: JSON.stringify({ error: 'Missing username or password' }),
+            body: JSON.stringify({ error: 'Missing password' }),
         };
     }
 
     const client = new Client({
-        connectionString: process.env.POSTGRES_URL, // Make sure this is set in Netlify env vars
+        connectionString: process.env.POSTGRES_URL, // Ensure this is set in Netlify env vars
         ssl: { rejectUnauthorized: false },
     });
 
@@ -26,8 +26,8 @@ exports.handler = async function (event) {
         await client.connect();
 
         const result = await client.query(
-            'SELECT * FROM ceo_credentials WHERE username = $1 AND password = $2',
-            [username, password]
+            'SELECT * FROM ceo_credentials WHERE password = $1',
+            [password]
         );
 
         await client.end();
@@ -40,7 +40,7 @@ exports.handler = async function (event) {
         } else {
             return {
                 statusCode: 401,
-                body: JSON.stringify({ success: false, message: 'Invalid credentials' }),
+                body: JSON.stringify({ success: false, message: 'Invalid password' }),
             };
         }
     } catch (error) {

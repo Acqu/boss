@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Boss",
   "resources": {
-    "hash": "sha256-jc0+HMANHics0sKpRod1WjXJXwpnIzkhzot/XTIDWXk=",
+    "hash": "sha256-Lg6/S6nwyyM5b203381YDDb5EFRhC47vknXHmmy038s=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -139,7 +139,7 @@
       "System.wznexm8bk2.wasm": "System.wasm",
       "netstandard.alb6jqxkg9.wasm": "netstandard.wasm",
       "System.Private.CoreLib.ptmsfwbf5z.wasm": "System.Private.CoreLib.wasm",
-      "Boss.si17kxx9yx.wasm": "Boss.wasm",
+      "Boss.ybfswg6kdy.wasm": "Boss.wasm",
       "dotnet.native.ad5zztmlbh.js": "dotnet.native.js",
       "dotnet.native.2qlhis1lsj.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
@@ -301,7 +301,7 @@
       "System.Xml.XmlSerializer.ygu8f6km75.wasm": "sha256-QlOIPoQlYDIvBdJUrN1O32u2E10G7lWvlgQUTt1ogAU=",
       "System.wznexm8bk2.wasm": "sha256-/Imz/Enqa2AZc4T3k/CqtsM6674KRN9OUtvK4Nokhew=",
       "netstandard.alb6jqxkg9.wasm": "sha256-LitCZk/LmhRQGTLc1o6wkUcyufprN5iGBuRQw2Szuik=",
-      "Boss.si17kxx9yx.wasm": "sha256-jPQDAjQQHGW54ClK2xWg0L49+6l67eUCVvXECxawQrc="
+      "Boss.ybfswg6kdy.wasm": "sha256-nvx+4DE3BggmczYL+70bSaj7gKs2oQHyeu1v5uuJ1hI="
     }
   },
   "cacheBootResources": true,

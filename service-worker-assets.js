@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "LsUNi4iS",
+  "version": "4AhR8xIO",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -374,8 +374,8 @@ self.assetsManifest = {
       "url": "_framework/Blazorise.Licensing.5q2r77toij.wasm"
     },
     {
-      "hash": "sha256-jPQDAjQQHGW54ClK2xWg0L49+6l67eUCVvXECxawQrc=",
-      "url": "_framework/Boss.si17kxx9yx.wasm"
+      "hash": "sha256-nvx+4DE3BggmczYL+70bSaj7gKs2oQHyeu1v5uuJ1hI=",
+      "url": "_framework/Boss.ybfswg6kdy.wasm"
     },
     {
       "hash": "sha256-VudsUw1u/CbHwMuwZ3a+/MIY0vYPRPMlvWNDTegZXsM=",
@@ -886,7 +886,7 @@ self.assetsManifest = {
       "url": "_framework/System.wznexm8bk2.wasm"
     },
     {
-      "hash": "sha256-aJL3eijxDfApWSjnVgyCFoYLIyJ4NcXwI9rLuwCMFD4=",
+      "hash": "sha256-LE8T13PEnY3QYPh/Ef3/PPRGJ6X4LFZ9TNDR0Dy8BeU=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -930,7 +930,7 @@ self.assetsManifest = {
       "url": "appsettings.json"
     },
     {
-      "hash": "sha256-URPqd0QwFGiJKyCNDY2RDGSz0eXmBUAKqxtyOc3B4Go=",
+      "hash": "sha256-rHkPTk3oeomFcb5jrl+93kC3X52giwPrWgEA9vz8Qk0=",
       "url": "css/app.css"
     },
     {
@@ -978,7 +978,7 @@ self.assetsManifest = {
       "url": "netlify/functions/add-sale.js"
     },
     {
-      "hash": "sha256-tEKs9QJ4eI0ayLreOXm2Vd8dXyq96+lWYRRDKRiA5Jw=",
+      "hash": "sha256-NAbILztCe9uFYgPAAy+MOCHMXAsj3Rg6KlQLbbByPnU=",
       "url": "netlify/functions/auth-ceo.js"
     },
     {
