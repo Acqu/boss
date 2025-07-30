@@ -1,6 +1,5 @@
-﻿// get-sales.js
-import { neon } from '@netlify/neon';
-const sql = neon(); // Uses env NETLIFY_DATABASE_URL automatically
+﻿import { neon } from '@netlify/neon';
+const sql = neon();
 
 export const handler = async function () {
     try {
@@ -12,7 +11,7 @@ export const handler = async function () {
                 'Content-Type': 'application/json',
                 'Access-Control-Allow-Origin': '*',
             },
-            body: JSON.stringify(result.rows), // ✅ return only rows
+            body: JSON.stringify(result.rows), // ✅ Only rows 
         };
     } catch (err) {
         console.error('❌ get-sales error:', err);

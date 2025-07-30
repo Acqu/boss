@@ -1,5 +1,5 @@
-﻿// netlify/functions/auth-ceo.js
-const pool = require('./db').default; // ✅ Import default from TypeScript module
+﻿// netlify/functions/saveReceipt.js
+const pool = require('./db').default;
 
 exports.handler = async function (event) {
     if (event.httpMethod !== 'POST') {
@@ -10,19 +10,18 @@ exports.handler = async function (event) {
         };
     }
 
-    let password;
+    let receipt;
     try {
-        const data = JSON.parse(event.body || '{}');
-        password = data.inputPassword?.trim();
-        if (!password) {
+        receipt = JSON.parse(event.body || '{}');
+        if (!receipt.id || !receipt.customerName || !receipt.totalAmount || !receipt.timestamp) {
             return {
                 statusCode: 400,
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ error: 'Missing password' }),
+                body: JSON.stringify({ error: 'Missing receipt fields' }),
             };
         }
     } catch (err) {
-        console.error('Failed to parse body:', err);
+        console.error('Failed to parse receipt:', err);
         return {
             statusCode: 400,
             headers: { 'Content-Type': 'application/json' },
@@ -31,27 +30,21 @@ exports.handler = async function (event) {
     }
 
     try {
-        const result = await pool.query(
-            'SELECT * FROM ceo_credentials WHERE password = $1',
-            [password]
+        await pool.query(
+            'INSERT INTO "Receipts" (id, customerName, totalAmount, timestamp) VALUES ($1, $2, $3, $4)',
+            [receipt.id, receipt.customerName, receipt.totalAmount, receipt.timestamp]
         );
 
-        const isAuthenticated = result.rows.length === 1;
-
         return {
-            statusCode: isAuthenticated ? 200 : 401,
+            statusCode: 200,
             headers: {
                 'Content-Type': 'application/json',
                 'Access-Control-Allow-Origin': '*',
             },
-            body: JSON.stringify(
-                isAuthenticated
-                    ? { success: true, message: 'Authenticated' }
-                    : { success: false, message: 'Invalid password' }
-            ),
+            body: JSON.stringify({ success: true }),
         };
     } catch (error) {
-        console.error('Query error:', error);
+        console.error('❌ saveReceipt error:', error);
         return {
             statusCode: 500,
             headers: {

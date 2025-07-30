@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "v7sagrOL",
+  "version": "W/qDuu9C",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -374,8 +374,8 @@ self.assetsManifest = {
       "url": "_framework/Blazorise.Licensing.5q2r77toij.wasm"
     },
     {
-      "hash": "sha256-ze/t2mR6jnwsRkplUuGZEQH8pm/fadqGcEP7hbiOX6w=",
-      "url": "_framework/Boss.9dvk8bwc4z.wasm"
+      "hash": "sha256-M4zQziqgP5cbsy0593ViE3+gLNtCkt01rqyG7H/Bxwo=",
+      "url": "_framework/Boss.7fp6eib3te.wasm"
     },
     {
       "hash": "sha256-VudsUw1u/CbHwMuwZ3a+/MIY0vYPRPMlvWNDTegZXsM=",
@@ -886,7 +886,7 @@ self.assetsManifest = {
       "url": "_framework/System.wznexm8bk2.wasm"
     },
     {
-      "hash": "sha256-7Hiv3fyhT+yZnp7vbGE6RSn/S0GlueAjCo8wJ962CaE=",
+      "hash": "sha256-JsnznHVNhtmtDp/O/kOY+1I5+AI9tpfvo7PjhObL1fc=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -978,7 +978,7 @@ self.assetsManifest = {
       "url": "netlify/functions/add-sale.js"
     },
     {
-      "hash": "sha256-y/1ouqhQfzi4OAvZDyTd/a6nabF9dGtO/LqETJl8JCY=",
+      "hash": "sha256-yFByg1N8Wqntrz4/qY2pP9wnOnq+Bmnz1DZHMpgX8sM=",
       "url": "netlify/functions/auth-ceo.js"
     },
     {
@@ -1010,11 +1010,11 @@ self.assetsManifest = {
       "url": "netlify/functions/get-products.js"
     },
     {
-      "hash": "sha256-cbGDD3s3RSnlJQy8jmAqVylJskhirCkB46Fu5hJr9qc=",
+      "hash": "sha256-eGrPNn+iWwpYUNB9VHiVjfM7B5pKXDKgMaY08aCyODk=",
       "url": "netlify/functions/get-receipts.js"
     },
     {
-      "hash": "sha256-+/c7RysmLDlyRV4qs3NTvOBKIizknhpJ8ZemmwiJOT0=",
+      "hash": "sha256-JRPD1RPbmDdgi6ZO5Ap+3jydxzEiRk468H/r3I0WGL4=",
       "url": "netlify/functions/get-sales.js"
     },
     {
@@ -1022,24 +1022,24 @@ self.assetsManifest = {
       "url": "netlify/functions/log-analytics.js"
     },
     {
-      "hash": "sha256-IaUZN/X0EJd1w35mh9xA+568JMg3DS3gfcd1x8xTSkU=",
-      "url": "netlify/functions/login.ts"
+      "hash": "sha256-70IrFAEfL4CMAodCkM7iBBgpJWolY0IaIBOsk1iDqzk=",
+      "url": "netlify/functions/login.js"
     },
     {
       "hash": "sha256-OobraBog4qZt8jQmX5BJfZ95TR2sZPjTMBpZ0XqiLbY=",
       "url": "netlify/functions/record-sale.js"
     },
     {
-      "hash": "sha256-MOuinnpPB1za73Bo6K8/YAq/J911TgyCPVzcP0W9H4U=",
-      "url": "netlify/functions/recordSale.ts"
+      "hash": "sha256-gi+cLtrxSAgBPr1dqUwuaNAO0mhbqCIqW3V797sd/fI=",
+      "url": "netlify/functions/recordSale.js"
     },
     {
       "hash": "sha256-w70tjVx1qhpQMay7hjWWtk70JWGbA6umaWwIR2MZfes=",
       "url": "netlify/functions/save-receipt.js"
     },
     {
-      "hash": "sha256-JaByPVpBLAliEuBAROtF+L8rnAaV7UP4noou704vA3w=",
-      "url": "netlify/functions/saveReceipt.ts"
+      "hash": "sha256-2ibGOPEFnwnifpYqe9OFRp6259Z2sUfp48K84a0e3E4=",
+      "url": "netlify/functions/saveReceipt.js"
     },
     {
       "hash": "sha256-6SXaOz/E4A56hW0+Y8xQ+IhpIH20n7lQJ3EpwfvrAWk=",
