@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "94i54TRk",
+  "version": "o/l6ZPxF",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -1026,11 +1026,11 @@ self.assetsManifest = {
       "url": "netlify/functions/update-product.js"
     },
     {
-      "hash": "sha256-E/kT8bkhZm4xqxNuwuLPr8QPLXTZjcm8Pg3GsmVdptI=",
+      "hash": "sha256-5yUMZJsQEdl3HcAW1tLJL0+JOfRNbDGt+9R87gGndTM=",
       "url": "package-lock.json"
     },
     {
-      "hash": "sha256-rbLbL+h2Lg88YF9MEAk0tJwysd/Y9WykJjYpghUHIKk=",
+      "hash": "sha256-OUyEZVfe63EvCgr43u4n98mGH9I8zSRSijLpIXsfy9c=",
       "url": "package.json"
     }
   ]
