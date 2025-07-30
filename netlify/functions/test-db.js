@@ -1,7 +1,4 @@
-﻿import { neon } from '@netlify/neon';
-const sql = neon();
-
-const pool = require('./db');
+﻿const pool = require('./db');
 
 exports.handler = async function () {
     try {

@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "32g8qR9V",
+  "version": "JOrHF4LO",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -1018,7 +1018,7 @@ self.assetsManifest = {
       "url": "netlify/functions/send-receipt.js"
     },
     {
-      "hash": "sha256-IDdpI6Y0ILwJsiG3inWMeWxvw7lyiqA6LyNE2c9kmIQ=",
+      "hash": "sha256-/i5xLMvIeUVc9iX7r4Z4ImtkpkeJZ/jg1zsUdFfbeJ4=",
       "url": "netlify/functions/test-db.js"
     },
     {
