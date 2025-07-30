@@ -18,7 +18,7 @@ exports.handler = async function (event) {
     }
 
     const client = new Client({
-        connectionString: process.env.POSTGRES_URL, // Ensure this is set in Netlify env vars
+        connectionString: process.env.NETLIFY_DATABASE_URL, // Updated to align with other functions
         ssl: { rejectUnauthorized: false },
     });
 
