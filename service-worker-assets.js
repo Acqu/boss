@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "42ExrmRp",
+  "version": "v7sagrOL",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -374,8 +374,8 @@ self.assetsManifest = {
       "url": "_framework/Blazorise.Licensing.5q2r77toij.wasm"
     },
     {
-      "hash": "sha256-a4/XwpH0hOzlqUleXo+KN24lYJuxGrV4Ca0XYLxhnec=",
-      "url": "_framework/Boss.9npbyeswe2.wasm"
+      "hash": "sha256-ze/t2mR6jnwsRkplUuGZEQH8pm/fadqGcEP7hbiOX6w=",
+      "url": "_framework/Boss.9dvk8bwc4z.wasm"
     },
     {
       "hash": "sha256-VudsUw1u/CbHwMuwZ3a+/MIY0vYPRPMlvWNDTegZXsM=",
@@ -886,7 +886,7 @@ self.assetsManifest = {
       "url": "_framework/System.wznexm8bk2.wasm"
     },
     {
-      "hash": "sha256-oXUUMy8GlgyLVU0UxiNx+OocJoCnhCqQdmLcY4+AX7Q=",
+      "hash": "sha256-7Hiv3fyhT+yZnp7vbGE6RSn/S0GlueAjCo8wJ962CaE=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -978,7 +978,7 @@ self.assetsManifest = {
       "url": "netlify/functions/add-sale.js"
     },
     {
-      "hash": "sha256-+RLZXHQ5lZeYJHqyvWGYsp6yx/LxhiEPf1xEmGhXnBQ=",
+      "hash": "sha256-y/1ouqhQfzi4OAvZDyTd/a6nabF9dGtO/LqETJl8JCY=",
       "url": "netlify/functions/auth-ceo.js"
     },
     {
@@ -1014,7 +1014,7 @@ self.assetsManifest = {
       "url": "netlify/functions/get-receipts.js"
     },
     {
-      "hash": "sha256-kAaUupllKT4tnnno7blRv1uOvmXJjJhlkPwtlVyLYVo=",
+      "hash": "sha256-+/c7RysmLDlyRV4qs3NTvOBKIizknhpJ8ZemmwiJOT0=",
       "url": "netlify/functions/get-sales.js"
     },
     {

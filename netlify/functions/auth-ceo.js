@@ -1,5 +1,10 @@
 ﻿// auth-ceo.js
-const { Client } = require('pg');
+const { Pool } = require('pg');
+
+const pool = new Pool({
+    connectionString: process.env.NETLIFY_DATABASE_URL,
+    ssl: { rejectUnauthorized: false },
+});
 
 exports.handler = async function (event) {
     if (event.httpMethod !== 'POST') {
@@ -13,7 +18,7 @@ exports.handler = async function (event) {
     let password;
     try {
         const data = JSON.parse(event.body || '{}');
-        password = data.password;
+        password = data.inputPassword?.trim(); // ✅ match Blazor field
         if (!password) {
             return {
                 statusCode: 400,
@@ -30,23 +35,22 @@ exports.handler = async function (event) {
         };
     }
 
-    const client = new Client({
-        connectionString: process.env.NETLIFY_DATABASE_URL,
-        ssl: { rejectUnauthorized: false },
-    });
-
     try {
-        await client.connect();
-        const result = await client.query(
+        const result = await pool.query(
             'SELECT * FROM ceo_credentials WHERE password = $1',
             [password]
         );
 
+        const isAuthenticated = result.rows.length === 1;
+
         return {
-            statusCode: 200,
-            headers: { 'Content-Type': 'application/json' },
+            statusCode: isAuthenticated ? 200 : 401,
+            headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*',
+            },
             body: JSON.stringify(
-                result.rows.length === 1
+                isAuthenticated
                     ? { success: true, message: 'Authenticated' }
                     : { success: false, message: 'Invalid password' }
             ),
@@ -58,7 +62,5 @@ exports.handler = async function (event) {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ error: 'Server error', details: error.message }),
         };
-    } finally {
-        await client.end().catch(err => console.error('Failed to close DB:', err));
     }
 };
