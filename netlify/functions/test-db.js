@@ -1,11 +1,12 @@
-﻿const pool = require('./db');
+﻿import { neon } from '@netlify/neon';
+const sql = neon();
 
-exports.handler = async function () {
+export const handler = async function () {
     try {
-        const result = await pool.query('SELECT NOW()');
+        const [row] = await sql`SELECT NOW() as now`;
         return {
             statusCode: 200,
-            body: JSON.stringify({ timestamp: result.rows[0].now })
+            body: JSON.stringify({ timestamp: row.now })
         };
     } catch (err) {
         return {

@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "znEb4wwn",
+  "version": "94i54TRk",
   "assets": [
     {
       "hash": "sha256-vcRbcyM3HHt7VoDapZ115UZ/VPjqM/EhnePJ265Vn7c=",
@@ -994,6 +994,10 @@ self.assetsManifest = {
       "url": "netlify/functions/get-ceo.js"
     },
     {
+      "hash": "sha256-zTpB+hewMfUqFQXdBN6Xm3qf0SrH2iYB7cp+St2NKRk=",
+      "url": "netlify/functions/get-post.js"
+    },
+    {
       "hash": "sha256-NGJN2XxUAW5hQmXka956yYy7LRBIhadsmsav8hpmmY8=",
       "url": "netlify/functions/get-products.js"
     },
@@ -1002,7 +1006,7 @@ self.assetsManifest = {
       "url": "netlify/functions/get-receipts.js"
     },
     {
-      "hash": "sha256-73eRIb/KW6M7Uxh8n0zhsw20Z5wavD8tVogfqXNcHGk=",
+      "hash": "sha256-kAaUupllKT4tnnno7blRv1uOvmXJjJhlkPwtlVyLYVo=",
       "url": "netlify/functions/get-sales.js"
     },
     {
@@ -1014,7 +1018,7 @@ self.assetsManifest = {
       "url": "netlify/functions/send-receipt.js"
     },
     {
-      "hash": "sha256-0S2IRZ4a80QhhtjZTMLd2Os2MTlAsdGSkkS28kk99Hk=",
+      "hash": "sha256-i5xhlE9VugwDEIAILn8q1Ckk9oBWdICvfX+cUse8r80=",
       "url": "netlify/functions/test-db.js"
     },
     {

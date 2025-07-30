@@ -1,11 +1,12 @@
-﻿const pool = require('./db');
+﻿import { neon } from '@netlify/neon';
+const sql = neon(); // Uses env NETLIFY_DATABASE_URL automatically
 
-exports.handler = async function () {
+export const handler = async function () {
     try {
-        const result = await pool.query('SELECT * FROM Sales ORDER BY Timestamp DESC');
+        const result = await sql`SELECT * FROM Sales ORDER BY Timestamp DESC`;
         return {
             statusCode: 200,
-            body: JSON.stringify(result.rows)
+            body: JSON.stringify(result)
         };
     } catch (err) {
         console.error('❌ get-sales error:', err);
