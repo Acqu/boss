@@ -18,7 +18,7 @@ exports.handler = async function (event) {
     }
 
     const client = new Client({
-        connectionString: process.env.NETLIFY_DATABASE_URL, // Updated to align with other functions
+        connectionString: process.env.NETLIFY_DATABASE_URL,
         ssl: { rejectUnauthorized: false },
     });
 

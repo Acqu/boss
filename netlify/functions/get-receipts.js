@@ -1,11 +1,6 @@
-﻿import { Pool } from 'pg';
+﻿const pool = require('./db');
 
-const pool = new Pool({
-    connectionString: process.env.NETLIFY_DATABASE_URL,
-    ssl: { rejectUnauthorized: false }
-});
-
-export const handler = async (event) => {
+exports.handler = async function (event) {
     if (event.httpMethod !== 'GET') {
         return {
             statusCode: 405,

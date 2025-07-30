@@ -1,15 +1,16 @@
-﻿import { Pool } from 'pg';
+﻿const pool = require('./db');
 
-const pool = new Pool({
-    connectionString: process.env.NETLIFY_DATABASE_URL,
-    ssl: { rejectUnauthorized: false }
-});
-
-export default async (req, res) => {
+exports.handler = async function () {
     try {
         const result = await pool.query('SELECT username, password FROM ceocredential LIMIT 1');
-        res.status(200).json(result.rows[0]);
+        return {
+            statusCode: 200,
+            body: JSON.stringify(result.rows[0])
+        };
     } catch (err) {
-        res.status(500).json({ error: err.message });
+        return {
+            statusCode: 500,
+            body: JSON.stringify({ error: err.message })
+        };
     }
 };
